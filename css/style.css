@@ -1,0 +1,649 @@
+/*!--FONTS--*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/*!--RESET--*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins" !important;
+}
+
+/*!--HEADER--*/
+
+
+
+header {
+  background-color: antiquewhite;
+  padding: 25px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header img {
+  height: 70px;
+}
+
+header nav ul li {
+  margin: 10px;
+  background-color: antiquewhite;
+}
+
+
+header nav ul li a {
+  text-decoration: none;
+  color: #372147;
+  font-size: 18px;
+}
+
+header nav ul li a:hover {
+  color: #ffffff;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none; 
+    box-shadow: none; 
+    background-color: transparent; 
+}
+
+/*!--MAIN--*/
+
+/*!--hero--*/
+.hero {
+  color: white;
+  width: 100%;
+  height: 800px;
+  text-align: center;
+  background-image: url(../img/franui-manos.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 80px !important;
+  text-align: center;
+}
+
+.hero h4 {
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+
+.hero a {
+  background-color: #634c78;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/*!--productos--*/
+
+h2 {
+  font-size: 40px !important;
+  color: #372147
+}
+
+.title h2 {
+  padding: 25px;
+  height: 100px;
+}
+
+.productos {
+  width: 100%;
+}
+
+.productos-contenedor {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.productos .productos-contenedor div {
+  flex: 0 1 calc(33.33% - 10px);
+  max-width: 300px;
+  min-width: 300px;
+  box-sizing: border-box;
+  border: 1px solid rgb(189, 185, 185);
+  border-radius: 15px;
+  height: 380px;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+.productos .productos-contenedor div:hover {
+  background-color: rgb(197, 197, 197);
+}
+
+.productos div h4 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.productos a {
+  background-color: #634c78;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.boton:hover {
+  background-color: #372147;
+  color: #634c78;
+}
+
+.productos div img {
+  width: 300px;
+  height: 250px;
+  border-radius: 15px;
+}
+
+/*!--locales--*/
+.locales {
+  div {
+    width: 90%;
+    margin: 60px;
+    padding: 30px;
+  }
+
+  h3 {
+    color: #372147;
+    font-size: 35px;
+  }
+
+  p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  a {
+    background-color: #634c78;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+}
+
+.recuadro-locales {
+  display: flex;
+  border: 1px solid grey;
+  justify-content: center;
+}
+
+.recuadro-locales img {
+  width: 700px;
+  height: 400px;
+}
+
+.recuadro-nosotros {
+  display: flex;
+  border: 1px solid grey;
+  justify-content: center;
+}
+
+.recuadro-nosotros img {
+  width: 700px;
+  height: 400px;
+}
+
+
+.video {
+  width: 90%;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.youtube {
+  position: relative;
+  padding-bottom: 35%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #000;
+}
+
+.youtube iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+
+/*!--PRODUCTOS PAGE--*/
+
+.franuis-cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.franuis-cards div {
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+.franuis h3 {
+  margin: 40px;
+}
+
+.franuis div a {
+  background-color: #634c78;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.franuis h4 {
+  margin-bottom: 40px;
+  border-radius: 5px;
+  margin: 40px;
+}
+
+.franuis a {
+  background-color: #634c78;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 40px;
+  margin-bottom: 50px;
+}
+
+.lista-productos-pag nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+  margin-left: 40px;
+}
+
+.img-productos {
+  width: 100%;
+}
+
+.texto-producto-franui {
+  margin-left: 50px;
+  padding-top: 20px;
+}
+
+/* .lista-productos-pag nav ul {
+  border: 1px solid #372147;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  background-color: #634c78;
+} */
+
+.lista-productos-pag nav ul {
+  border: 1px solid #372147;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  background-color: #634c78;
+  flex-wrap: wrap;
+  /* Permite que los elementos se envuelvan en varias líneas si es necesario */
+  padding: 0;
+  margin: 0;
+}
+
+.lista-productos-pag nav ul li {
+  margin: 5px 10px;
+}
+
+.lista-productos-pag nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  text-align: center;
+}
+
+.franuis-opciones {
+  display: flex;
+  border: 1px solid grey;
+}
+
+/*!--LOCALES PAGE--*/
+
+/*!--.locals h3 {
+  color: #372147;
+  font-size: 35px;
+  margin: 40px;
+}
+
+.detalle-locals div {
+  width: 500px;
+  height: 150px;
+  border: 1px solid grey;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.detalle-locals div img {
+  height: 50px;
+}
+
+.detalle-locals div a {
+  background-color: #634c78;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 40px;
+}
+
+.detalle-locals div p {
+  margin-bottom: 20px;
+}
+
+.locals {
+  display: grid;
+  grid-template-columns: 3fr;
+  grid-template-rows: 3fr;
+}--*/
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.locals {
+  max-width: 100%;
+  padding: 20px;
+}
+
+.locals iframe {
+  width: 100%;
+  height: 90%;
+
+}
+
+.detalle-locals {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.detalle-locals div {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f9f9f9;
+  min-width: 150px;
+}
+
+.detalle-locals img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.boton {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #634c78;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.boton:hover {
+  background-color: #372147;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .detalle-locals {
+    grid-template-columns: 1fr;
+  }
+
+  .locals iframe {
+    min-height: 300px;
+  }
+}
+
+
+/*!--NOSOTROS PAGE--*/
+
+.nosotros p {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.intro-nosotros {
+  text-align: center;
+  margin: 40px;
+}
+
+.frase-nosotros {
+  text-align: center;
+  padding: 60px;
+  color: white;
+  background-color: #372147;
+}
+
+.receta-nosotros {
+  text-align: center;
+  margin: 40px;
+}
+
+/*!--CONTACTO PAGE--*/
+
+.locales-contacto div {
+  width: 80%;
+  border: 1px solid grey;
+  margin: 60px;
+  padding: 30px;
+}
+
+.locales-contacto h3 {
+  color: #372147;
+  font-size: 35px;
+}
+
+.locales-contacto p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.locales-contacto a {
+  background-color: #634c78;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.contactos {
+  color: white;
+  background-color: #372147;
+  display: flex;
+  justify-content: center;
+}
+
+.contactos p {
+  margin-bottom: 20px;
+}
+
+.contactos div {
+  margin: 40px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contactos img {
+  width: 20px;
+  height: 20px;
+  margin: 20px;
+}
+
+.contactos a {
+  background-color: white;
+  text-decoration: none;
+  color: #634c78;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.contactos h3 {
+  color: #ffffff;
+}
+
+
+
+/*!--FOOTER--*/
+
+footer {
+  background-color: #634c78;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer div img {
+  width: 250px;
+  padding: 40px;
+}
+
+footer nav ul {
+  list-style: none;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  margin: 40px;
+}
+
+.formulario {
+  padding: 40px;
+}
+
+.formulario a {
+  background-color: #ffffff;
+  text-decoration: none;
+  color: #634c78;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+.correo input {
+  margin-bottom: 30px;
+}
+
+.footer-redes img {
+  width: 150px;
+  height: 150px;
+}
+
+/*!--EXTRA--*/
+
+.fixed {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+.fixed img {
+  width: 80px;
+}
+
+/*  MOBILE  */
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+
+  /*!--HEADER--*/
+  header nav ul {
+    list-style: none;
+    display: block;
+  }
+
+  .locales {
+    div {
+      margin: 20px;
+      padding: 20px;
+    }
+  }
+
+  .texto-producto-franui {
+    width: 80%;
+  }
+
+ 
+
+  .detalle-locals img {
+    max-width: 100px;
+  }
+
+  .nosotros p {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .recuadro-locales {
+    display: block;
+  }
+
+  .recuadro-locales img {
+    width: 300px;
+    height: 180px;
+  }
+
+  .recuadro-nosotros {
+    display: block;
+  }
+
+  .recuadro-nosotros img {
+    width: 300px;
+    height: 180px;
+  }
+
+  footer {
+    display: block;
+  }
+}
