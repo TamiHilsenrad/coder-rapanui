@@ -1,0 +1,64 @@
+// Variables
+$primary-color: #634c78;
+$secondary-color: #372147;
+$light-color: #ffffff;
+$bg-color: antiquewhite;
+$font-family: 'Poppins', sans-serif;
+$breakpoint-mobile: 768px;
+
+// Mixins
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin button-style($bg-color, $text-color) {
+  background-color: $bg-color;
+  color: $text-color;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  &:hover {
+    background-color: darken($bg-color, 10%);
+  }
+}
+
+@mixin responsive($property, $value) {
+  @media (max-width: $breakpoint-mobile) {
+    @content;
+  }
+}
+
+// Extenders
+%center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+%card-style {
+  box-sizing: border-box;
+  border: 1px solid rgb(189, 185, 185);
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+// Importación de fuentes
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+// Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family !important;
+}
+
+.boton {
+  @include button-style($primary-color, $light-color);
+}

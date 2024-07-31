@@ -1,0 +1,62 @@
+// Media Queries
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .detalle-locals {
+    grid-template-columns: 1fr;
+  }
+
+  .locals iframe {
+    min-height: 300px;
+  }
+
+  // Header
+  header nav ul {
+    list-style: none;
+    display: block;
+  }
+
+  .locales {
+    div {
+      margin: 20px;
+      padding: 20px;
+    }
+  }
+
+  .texto-producto-franui {
+    width: 80%;
+  }
+
+  .detalle-locals img {
+    max-width: 100px;
+  }
+
+  .nosotros p {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .recuadro-locales {
+    display: block;
+
+    img {
+      width: 270px;
+      height: 180px;
+    }
+  }
+
+  .recuadro-nosotros {
+    display: block;
+
+    img {
+      width: 270px;
+      height: 180px;
+    }
+  }
+
+  footer {
+    display: block;
+  }
+}

@@ -1,0 +1,468 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.productos .productos-contenedor div {
+  box-sizing: border-box;
+  border: 1px solid rgb(189, 185, 185);
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.boton {
+  background-color: #634c78;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.boton:hover {
+  background-color: #493859;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.productos .productos-contenedor div {
+  box-sizing: border-box;
+  border: 1px solid rgb(189, 185, 185);
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.boton {
+  background-color: #634c78;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.boton:hover {
+  background-color: #493859;
+}
+
+header {
+  background-color: antiquewhite;
+  padding: 25px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+header .container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav ul li {
+  margin: 10px;
+  background-color: antiquewhite;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #372147;
+  font-size: 18px;
+}
+header nav ul li a:hover {
+  color: #ffffff;
+}
+header img {
+  height: 70px;
+}
+header .navbar-toggler:focus,
+header .navbar-toggler:active {
+  outline: none;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.productos .productos-contenedor div {
+  box-sizing: border-box;
+  border: 1px solid rgb(189, 185, 185);
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.boton {
+  background-color: #634c78;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.boton:hover {
+  background-color: #493859;
+}
+
+.hero {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.productos {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.locales {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.video {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.hero {
+  color: #ffffff;
+  width: 100%;
+  height: 800px;
+  background-image: url(../img/franui-manos.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  flex-direction: column;
+}
+.hero h1 {
+  font-size: 80px !important;
+}
+.hero h4 {
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+.hero a {
+  background-color: #634c78;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.hero a:hover {
+  background-color: #493859;
+}
+
+h2 {
+  font-size: 40px !important;
+  color: #372147;
+}
+
+.title h2 {
+  padding: 25px;
+  height: 100px;
+}
+
+.productos {
+  width: 100%;
+}
+.productos .productos-contenedor {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.productos .productos-contenedor div {
+  flex: 0 1 calc(33.33% - 10px);
+  max-width: 300px;
+  min-width: 300px;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.productos .productos-contenedor div:hover {
+  background-color: rgb(197, 197, 197);
+  transform: scale(1.05);
+}
+.productos .productos-contenedor div h4 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.productos .productos-contenedor div img {
+  width: 300px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px;
+}
+.productos .productos-contenedor div a {
+  background-color: #634c78;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+.productos .productos-contenedor div a:hover {
+  background-color: #493859;
+}
+
+.locales div {
+  width: 90%;
+  margin: 60px;
+  padding: 30px;
+}
+.locales h3 {
+  color: #372147;
+  font-size: 35px;
+}
+.locales p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.locales a {
+  background-color: #634c78;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.locales a:hover {
+  background-color: #493859;
+}
+
+.recuadro-locales,
+.recuadro-nosotros {
+  display: flex;
+  border: 1px solid grey;
+  justify-content: center;
+}
+.recuadro-locales img,
+.recuadro-nosotros img {
+  width: 700px;
+  height: 400px;
+}
+
+.video {
+  width: 90%;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.youtube {
+  position: relative;
+  padding-bottom: 35%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #000;
+}
+.youtube iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.boton {
+  background-color: #634c78;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.boton:hover {
+  background-color: #493859;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+.fixed img {
+  width: 80px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.productos .productos-contenedor div {
+  box-sizing: border-box;
+  border: 1px solid rgb(189, 185, 185);
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.boton {
+  background-color: #634c78;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.boton:hover {
+  background-color: #493859;
+}
+
+footer {
+  background-color: #634c78;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer div img {
+  width: 250px;
+  padding: 40px;
+}
+footer nav ul {
+  list-style: none;
+}
+footer nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  margin: 40px;
+}
+footer .formulario {
+  padding: 40px;
+}
+footer .formulario a {
+  background-color: #ffffff;
+  color: #634c78;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+footer .formulario a:hover {
+  background-color: #e6e6e6;
+}
+footer .correo input {
+  margin-bottom: 30px;
+}
+footer .footer-redes img {
+  width: 150px;
+  height: 150px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .detalle-locals {
+    grid-template-columns: 1fr;
+  }
+  .locals iframe {
+    min-height: 300px;
+  }
+  header nav ul {
+    list-style: none;
+    display: block;
+  }
+  .locales div {
+    margin: 20px;
+    padding: 20px;
+  }
+  .texto-producto-franui {
+    width: 80%;
+  }
+  .detalle-locals img {
+    max-width: 100px;
+  }
+  .nosotros p {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .recuadro-locales {
+    display: block;
+  }
+  .recuadro-locales img {
+    width: 270px;
+    height: 180px;
+  }
+  .recuadro-nosotros {
+    display: block;
+  }
+  .recuadro-nosotros img {
+    width: 270px;
+    height: 180px;
+  }
+  footer {
+    display: block;
+  }
+}/*# sourceMappingURL=estilos.css.map */

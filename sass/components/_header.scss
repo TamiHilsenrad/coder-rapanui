@@ -1,0 +1,53 @@
+@import "../base/generales";
+
+// Header
+header {
+  background-color: $bg-color;
+  padding: 25px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  .container-fluid {
+    @include flex-center;
+  }
+
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      li {
+        margin: 10px;
+        background-color: $bg-color;
+
+        a {
+          text-decoration: none;
+          color: $secondary-color;
+          font-size: 18px;
+
+          &:hover {
+            color: $light-color;
+          }
+        }
+      }
+    }
+  }
+
+  img {
+    height: 70px;
+  }
+
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+  }
+}
