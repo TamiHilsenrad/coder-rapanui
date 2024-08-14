@@ -420,6 +420,56 @@ footer .footer-redes img {
   height: 150px;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .detalle-locals {
+    grid-template-columns: 1fr 1fr;
+  }
+  .locals iframe {
+    min-height: 400px;
+  }
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  .locales div {
+    margin: 20px;
+    padding: 20px;
+  }
+  .texto-producto-franui {
+    width: 90%;
+  }
+  .detalle-locals img {
+    max-width: 150px;
+  }
+  .nosotros p {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .recuadro-locales {
+    display: flex;
+    justify-content: center;
+  }
+  .recuadro-locales img {
+    width: 300px;
+    height: 200px;
+  }
+  .recuadro-nosotros {
+    display: flex;
+    justify-content: center;
+  }
+  .recuadro-nosotros img {
+    width: 300px;
+    height: 200px;
+  }
+  footer {
+    display: flex;
+    justify-content: space-around;
+  }
+}
 @media (max-width: 768px) {
   .container {
     grid-template-columns: 1fr;

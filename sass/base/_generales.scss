@@ -24,9 +24,9 @@ $breakpoint-mobile: 768px;
   }
 }
 
-@mixin responsive($property, $value) {
-  @media (max-width: $breakpoint-mobile) {
-    @content;
+@mixin responsive($property, $value, $breakpoint) {
+  @media (max-width: $breakpoint) {
+    #{$property}: $value;
   }
 }
 
